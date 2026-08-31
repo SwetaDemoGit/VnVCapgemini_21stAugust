@@ -17,6 +17,8 @@ console.log("Number of fruits:", fruits.length);
 fruits[1] = "Grapes";
 console.log(fruits);
 
+
+
 // Adding an element at the end
 fruits.push("Mango");
 console.log(fruits);

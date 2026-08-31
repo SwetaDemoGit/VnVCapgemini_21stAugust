@@ -17,7 +17,7 @@ class Person {
 
 class Student extends Person {
     constructor(name, course) {
-        super(name);
+        super(name);//calls the parent's constructor.
         this.course = course;
     }
 

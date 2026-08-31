@@ -22,7 +22,7 @@ console.log("shift:", numbers);
 console.log("Has 30?", numbers.includes(30));
 
 // indexOf - finds the index of a value
-console.log("Index of 40:", numbers.indexOf(40));
+console.log("Index of 40:", numbers.indexOf(90));
 
 // slice - returns part of an array without changing the original array
 const selectedNumbers = numbers.slice(1, 4);
