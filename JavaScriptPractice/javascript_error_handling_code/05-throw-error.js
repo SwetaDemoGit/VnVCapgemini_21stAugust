@@ -1,3 +1,6 @@
+//The throw keyword is used when we want to manually create and 
+// send an error.
+
 function checkAge(age) {
     if (age < 18) {
         throw new Error("Age must be 18 or above");

@@ -13,7 +13,10 @@ const employee = {
     }
 };
 
-// When `employee.greet()` is called, the regular function `greet()` gets `this = employee`.
+employee.greet();
+
+// When `employee.greet()` is called, the regular function `greet()` 
+// gets `this = employee`.
 // The arrow functions created inside `greet()` do not have their own `this`.
 // They inherit `this` from the surrounding `greet()` function.
 // Therefore, both `arrow1` and `arrow2` use `employee` as their `this`.

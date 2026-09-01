@@ -20,3 +20,10 @@ function addNumbers(...numbers) {
     return total;
 }
 console.log("Total:", addNumbers(10, 20, 30));
+
+function restDemo(first, second, ...rest) {
+    console.log("First:", first);
+    console.log("Second:", second);
+    console.log("Rest:", rest);
+}
+restDemo(1, 2, 3, 4, 5);

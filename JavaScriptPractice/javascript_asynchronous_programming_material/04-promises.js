@@ -1,5 +1,9 @@
+//A Promise is an object that represents the result of an 
+// asynchronous operation 
+// that will be available now, later, or may fail.
+
 const promise = new Promise((resolve, reject) => {
-    const success = false; // Change this to true to simulate success
+    const success = true; // Change this to true to simulate success
 
     if (success) {
         resolve("Task completed");

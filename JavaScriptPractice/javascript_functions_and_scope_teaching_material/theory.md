@@ -576,7 +576,7 @@ function outer() {
     return inner;
 }
 
-const myFunction = outer();
+const myFunction = outer(); 
 
 myFunction();
 ```

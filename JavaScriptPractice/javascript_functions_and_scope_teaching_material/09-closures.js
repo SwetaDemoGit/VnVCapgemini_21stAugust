@@ -13,16 +13,16 @@ const myFunction = outer();
 myFunction();
 
 // Closure with persistent state
-// function createCounter() {
-//     let count = 0;
+function createCounter() {
+    let count = 0;
 
-//     return function () {
-//         count++;
-//         return count;
-//     };
-// }
+    return function () {
+        count++;
+        return count;
+    };
+}
 
-// const counter = createCounter();
-// console.log(counter());
-// console.log(counter());
-// console.log(counter());
+const counter = createCounter(); // count =0
+console.log(counter());
+console.log(counter());
+console.log(counter());

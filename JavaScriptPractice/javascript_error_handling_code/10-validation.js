@@ -11,3 +11,6 @@ try {
 } catch (error) {
     console.log("Validation failed:", error.message);
 }
+
+//throw is used for validation: if the input is invalid, 
+// we manually throw an error and let catch handle it.

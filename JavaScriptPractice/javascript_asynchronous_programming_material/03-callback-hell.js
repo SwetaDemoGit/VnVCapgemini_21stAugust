@@ -32,3 +32,8 @@ getUser((user) => {
         });
     });
 });
+
+// getUser()
+//     .then(user => getOrders(user))
+//     .then(orders => getPayment(orders))
+//     .then(payment => console.log(payment));

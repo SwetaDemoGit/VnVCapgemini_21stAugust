@@ -1,9 +1,9 @@
 // Function Declaration Hoisting
-// greet();
+greet();
 
-// function greet() {
-//     console.log("Hello from a hoisted function declaration");
-// }
+function greet() {
+    console.log("Hello from a hoisted function declaration");
+}
 
 // const welcome = function () {
 //     console.log("Welcome");
@@ -13,8 +13,21 @@
 // Calling a const function expression before initialization
 // causes a ReferenceError:
 //
-welcomeBeforeInitialization();
+// welcomeBeforeInitialization();
 
-const welcomeBeforeInitialization = function () {
-    console.log("Welcome");
-};
+// const welcomeBeforeInitialization = function () {
+//     console.log("Welcome");
+// };
+
+// console.log(a);
+// var a = 10;
+// console.log(a);
+
+// calculateSquare(6);
+
+// var calculateSquare = function (number) {
+//     console.log(number * number);
+// };
+
+//With var, the variable is
+//  hoisted and initialized with undefined.
