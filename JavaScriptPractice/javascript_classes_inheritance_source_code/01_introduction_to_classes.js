@@ -11,6 +11,7 @@ const student1 = new Student();
 student1.showDetails();
 
 
+
 // Example 2: Multiple objects
 class StudentInfo {
     showName(name) {

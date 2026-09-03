@@ -21,7 +21,7 @@ class Student {
 
 const student1 = new Student(20);
 
-student1.studentAge = 2;
+student1.studentAge = 50;
 console.log("Age:", student1.studentAge);
 
 
@@ -46,7 +46,7 @@ class Product {
 
 const product1 = new Product(1000);
 
-product1.productPrice = -500;
+product1.productPrice = 2500;
 console.log("Price:", product1.productPrice);
 
 
