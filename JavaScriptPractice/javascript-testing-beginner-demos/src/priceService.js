@@ -8,7 +8,7 @@ module.exports = {
     calculateTotal
 };
 
-Here:
+//Here:
 
 // priceService → object
 // getPrice() → function inside that object

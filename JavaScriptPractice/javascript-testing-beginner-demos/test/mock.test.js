@@ -14,6 +14,7 @@ describe("Mock Example", function () {
                     name: "Rahul"
                 };
             }
+            //This is stub-like behavior.
 
         };
 

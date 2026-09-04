@@ -9,6 +9,7 @@ describe("Stub Example", function () {
     it("should calculate total using a fixed price", function () {
 
         // Stub: getPrice() always returns 100
+        //Stub = "Give my code this particular data."
         const priceService = {
 
             getPrice: function () {

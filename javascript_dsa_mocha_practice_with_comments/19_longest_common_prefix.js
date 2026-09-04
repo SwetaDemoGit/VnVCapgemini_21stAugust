@@ -20,6 +20,8 @@ function longest_common_prefix(strings) {
         while (!strings[i].startsWith(prefix)) {
             prefix = prefix.substring(0, prefix.length - 1);
 
+            
+
             if (prefix === "") {
                 return -1;
             }
