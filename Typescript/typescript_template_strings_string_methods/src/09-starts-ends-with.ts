@@ -2,7 +2,7 @@
 
 let name: string = "Rahul";
 
-console.log(name.startsWith("Ra"));
+console.log(name.startsWith("RA"));
 
 let fileName: string = "report.pdf";
 

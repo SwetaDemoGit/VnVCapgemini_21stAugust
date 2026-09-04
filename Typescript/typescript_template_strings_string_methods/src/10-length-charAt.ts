@@ -4,4 +4,4 @@ let name: string = "Rahul";
 
 console.log("Length:", name.length);
 
-console.log("First character:", name.charAt(0));
+console.log("First character:", name.charAt(2));

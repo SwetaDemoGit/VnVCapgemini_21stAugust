@@ -1,8 +1,8 @@
 // toUpperCase() and toLowerCase()
 
-let name: string = "rahul";
+let name1: string = "rahul";
 
-console.log(name.toUpperCase());
+console.log(name1.toUpperCase());
 
 let city: string = "MUMBAI";
 

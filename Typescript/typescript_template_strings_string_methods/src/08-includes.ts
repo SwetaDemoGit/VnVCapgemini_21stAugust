@@ -2,4 +2,4 @@
 
 let email: string = "rahul@gmail.com";
 
-console.log(email.includes("@"));
+console.log(email.includes("#"));
